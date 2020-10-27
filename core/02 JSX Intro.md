@@ -1,4 +1,7 @@
 # 什么是JSX?
+JSX is short for <u>Javascript Extension</u>, similar to **JSP** in the follwing ways...  
+- JSP页面允许你在HTML页面通过<% %>写Java代码 
+- JSX页面允许你在HTML标签内通过{ }写JS代码
 # 为什么要使用JSX?
 # 怎样使用JSX?
 ## 在JSX中嵌入变量
