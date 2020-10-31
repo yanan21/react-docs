@@ -115,3 +115,5 @@ export { UnreadMessages as default } from './Messages.js'
 import React, { lazy } from 'react'
 const UnreadMessages = lazy(() => import('./UnreadMessages'))
 ````
+***
+代码分割示例见：myapp>LazyCompo.jsx
