@@ -267,4 +267,4 @@ class App extends React.Component {
   }
 }
 ````
-> 示例见<code>myapp>src>components>context</code>  
+> 示例见<code>myapp>src>components>context</code>

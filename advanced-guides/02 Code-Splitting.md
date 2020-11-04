@@ -116,4 +116,4 @@ import React, { lazy } from 'react'
 const UnreadMessages = lazy(() => import('./UnreadMessages'))
 ````
 ***
-代码分割示例见：myapp>LazyCompo.jsx
+> 代码分割示例见：<code>myapp>src>components>LazyCompo</code>
