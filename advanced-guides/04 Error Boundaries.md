@@ -67,3 +67,14 @@ class ErrorBoundary extends React.Component {
 React也不需要错误边界来捕获时间处理器内部的错误。与render方法和生命周期方法不同，事件处理函数不会在渲染期间触发，因此如果你需要在事件处理器内部捕获错误，直接使用不同的try/catch语句就可以了。
 ***
 > 本节示例程序见: <code>myapp>src>components>ErrorBoundary</code>
+
+**注意**:  
+- 错误边界的演示示例必须在生产环境下测试，生产环境下Webpack会跳转到错误蒙版页面  
+- 因此需要编译打包后放入生产环境
+- 再使用前端静态服务器serve部署后测试
+
+````node
+npm run build
+npm install -g serve
+serve -s build
+````
