@@ -1,5 +1,5 @@
 # 1. 使用State更新渲染DOM
-- 03 React element 更新渲染一节中提到  
+- [更新渲染](03%20React%20Element.md)一节中提到  
 - 通过设置定时器重复调用ReactDOM.redner()渲染是不推荐的做法
 - 本节将通过State编写有状态的组件完成之前效果
 ````JSX
@@ -93,3 +93,7 @@ this.setState((state, props) => {
 - 任何state总属于特定的组件，只能响应低于他们的组件
 - 将组件树想象成一个props的数据瀑布
 - 每一个组件的state就像是在任意一点给瀑布添加额外的水源，但只能往下流动
+
+***
+[上一篇：组件及其Props](./03%20React%20Element.md)
+<u style="float:right;">[下一篇：事件处理](./06%20Handling%20Events.md)</u>

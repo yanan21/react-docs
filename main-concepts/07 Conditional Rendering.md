@@ -69,7 +69,7 @@ class LoginControl extends React.Component {
   }
 }
 ````
-# 3. &&运算符
+# 3. && 运算符
 first thing first: in <u>Javascript</u>  
 - **true && expression => expression**
 - **false && expression => false**
@@ -109,6 +109,11 @@ render() {
 }
 ````
 # 5. 阻止组件渲染
-- 函数组件直接return null
-- class组件让render函数return null  
-<u>**详情示例见 myapp>WarningComponent**</u>
+- 函数组件直接<code>return null</code>
+- class组件让render函数<code>return null</code>  
+
+详情示例见：<code style="color:red;">myapp>WarningComponent</code>
+
+***
+[上一篇：事件处理](./05%20Component%20State.md)
+<u style="float:right;">[下一篇：列表渲染](./08%20Lists%20and%20Keys.md)</u>

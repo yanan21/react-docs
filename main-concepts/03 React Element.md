@@ -28,5 +28,9 @@ ReactDOM.render(element, document.getElementById('root'));
 - ReactDOM会将React元素和其子元素与他们之前的状态进行比较
 - 只更新必要的DOM元素
 - 这种减少DOM元素操作的行为使得网页加载更快(DOM操作慢)
-- 尽快React元素更新时每次都会创建一个新的描述整个UI树的对象
+- 尽管React元素更新时每次都会创建一个新的描述整个UI树的对象
 - 但ReactDOM只会更新实际改变了的内容
+
+***
+[上一篇：JSX介绍](./02%20JSX%20Intro.md)
+<u style="float:right;">[下一篇：组件及其Props](./04%20Component%20&%20Props.md)</u>

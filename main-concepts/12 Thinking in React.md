@@ -30,3 +30,7 @@
 实现方法: 
 - 将父组件实施更改local state的函数通过props传递给子组件
 - 子组件监听用户时间，将props收到的更改函数作为eventHandler
+
+***
+[上一篇：组件组合](./11%20Component%20Composition.md)
+<u style="float:right;">[<- 返回导航页](./beforeTutorial.md)</u>

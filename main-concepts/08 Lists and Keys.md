@@ -38,3 +38,7 @@ function NumberList(props) {
 - 使用index作为key时，可能会倒置性能变差，引起组件状态问题
 - key的声明必须在数组上下文中才有意义
 - ke只是在兄弟节点之间比唯一，与其他节点无关联无影响
+
+***
+[上一篇：条件渲染](./07%20Conditional%20Rendering.md)
+<u style="float:right;">[下一篇：表单](./09%20Forms.md)</u>

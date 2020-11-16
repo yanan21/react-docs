@@ -1,4 +1,4 @@
-# 文档导航：
+# 文档内容导航：
 
 ## React核心
 1. React入门的[两种方式](01%20Concept.md)
@@ -35,7 +35,7 @@
 - [Grommet][Grommet]
 - [Sancho UI][Sancho UI]
 
-[相关介绍](https://blog.csdn.net/vitaviva/article/details/104455814)，[使用AntD](../ui-libs/antd/01%20GetStarted.md)
+[相关介绍](https://blog.csdn.net/vitaviva/article/details/104455814)，[学习使用 AntD](../ui-libs/antd/01%20GetStarted.md)
 
 
 

@@ -10,7 +10,7 @@
 
 选择受控组件与否的建议:  
 - 在不能使用受控组件的时候选择作为替代品的非受控组件
-- 成熟的解决方案: formik, 包含验证, 追踪访问字段, 处理表单提交
+- 成熟的解决方案: [formik][formik], 包含验证, 追踪访问字段, 处理表单提交
 ***
 ### input, textarea, select
 - textarea元素  
@@ -30,6 +30,22 @@
 # 非受控组件
 ## input[type=file]
 上传文件的表单元素是个非受控组件,因为其value是只读的  
-React对非受控组件的处理, 详情可见[非受控组件]
+React对非受控组件的处理, 详情可见[非受控组件](../advanced-guides/21%20Uncontrolled%20Components.md)
 ***
-## 本节示例可在<u>**myapp>form**</u>中查看
+
+本节示例可在<code style="color:red;">myapp>form</code>中查看
+
+***
+[上一篇：列表渲染](./08%20Lists%20and%20Keys.md)
+<u style="float:right;">[下一篇：状态提升](./10%20Lifting%20State%20up.md)</u>
+
+
+
+
+
+
+
+
+
+
+[formik]: https://jaredpalmer.com/formik

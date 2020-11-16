@@ -1,6 +1,6 @@
 # 1. 事件处理的不同点
 - React事件的命名采用小驼峰camelCase方式，而非纯小写
-- 使用JSX语法时传入函数作为时间处理函数，而非字符串
+- 使用JSX语法时传入函数作为事件处理函数，而非字符串
 ````html
 <!-- HTML -->
 <button onclick="activateLasers()">
@@ -73,7 +73,7 @@ class LoginBtn extends React.Component {
 在大多数情况下，这并不是什么问题  
 但如果该函数作为prop传入子组件时，子组件可能会因此进行额外的重新渲染  
 建议在构造器中绑定this或者使用class fields语法避免性能问题
-
+***
 # 2. 向事件处理程序传递参数
 在实际开发中，事件处理函数通常需要传入参数，比如数据的删除操作等  
 这就要求我们给事件处理函数传入参数  
@@ -84,5 +84,10 @@ class LoginBtn extends React.Component {
 ````
 上述分别使用“箭头函数”和“Function.prototype.bind”来实现，效果等价  
 共同点在于: 两种方式，React事件对象e都会作为蝶儿个参数传递，箭头显示，bind隐式
+***
 # 3. 事件处理的一般示例
-详见myapp>LoginBtn.jsx组件
+详见：<code style="color:red;">myapp>LoginBtn.jsx</code>
+
+***
+[上一篇：组件状态](./05%20Component%20State.md)
+<u style="float:right;">[下一篇：条件渲染](./07%20Conditional%20Rendering.md)</u>

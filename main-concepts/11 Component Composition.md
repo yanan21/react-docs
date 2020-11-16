@@ -72,3 +72,7 @@ function WelcomeDialog() {
 ***
 # 那继承呢?
 没有继承！一切都可以用组合实现，不需要继承！
+
+***
+[上一篇：状态提升](./10%20Lifting%20State%20up.md)
+<u style="float:right;">[下一篇：React思维](./12%20Thinking%20in%20React.md)</u>

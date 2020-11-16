@@ -27,8 +27,8 @@ JSX会被Babel编译成普通JS函数调用，并返回JS对象
 const element = <div tabIndex="0">;
 const element = <img src={user.avatarUrl} />
 ````
-*JSX语法上更接近Javascript而不是XML，所以ReactDOM使用camelCase命名*  
-*class变成className, tabindex变成tabIndex*
+*JSX语法上更接近 Javascript 而不是 XML，所以 ReactDOM 使用 camelCase 命名*  
+*class变成 className, tabindex变成 tabIndex*
 ***
 ## JSX多子元素
 
@@ -77,3 +77,6 @@ const element = {
 }
 ````
 **上述对象就叫做“React元素”，它描述了你希望在屏幕上看见的内容**
+***
+[上一篇：基础概念](./01%20Concept.md)
+<u style="float:right;">[下一篇：React元素](./03%20React%20Element.md)</u>

@@ -45,3 +45,7 @@ function App () {
 - **无论是函数组件，还是类组件都决不能修改自身的props**
 - **所有React组件必须像纯函数一样保护其props不被改变**
 - **在不违反上述规则的情况下，State允许React组件根据用户操作、网络响应、动态更改输出内容**
+
+***
+[上一篇：React元素](./03%20React%20Element.md)
+<u style="float:right;">[下一篇：组件状态](./05%20Component%20State.md)</u>
