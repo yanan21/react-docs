@@ -27,3 +27,7 @@ react-redux (for react binding) and redux-devtools (the developer tools)
 ````shell
 npx create-react-app redux-app --template redux
 ````
+
+***
+[上一篇：Redux介绍](./1%20Introduction.md)
+<u style="float:right;">[下一篇：核心概念](./3%20Core%20Concepts.md)</u>

@@ -13,7 +13,7 @@ RTK围绕Redux核心，包含创建Redux App常用的包和函数
 简化你的store setup, reducers creation, 编写immutable logic，甚至创建整个state的slice  
 <u>RTK适用于初学者，也适用与有经验的开发人员</u>
 # 理解
-当你适用了Redux作为状态容器来管理App状态时：  
+当你使用了Redux作为状态容器来管理App状态时：  
 - app的全部state都存储在一个对象树里（object tree inside a single store）
 - 改变state树的唯一办法是：emit an 'action'(一个描述发生什么的对象)
 - Redux根据action执行更改(执行更改的函数叫做reducers)
@@ -29,3 +29,7 @@ RTK围绕Redux核心，包含创建Redux App常用的包和函数
 - 你发现把所有state放到顶级组件里已经不能满足要求时
 
 你才应该使用Redux！
+
+***
+[<- 返回导航页](../../main-concepts/beforeTutorial.md)
+<u style="float:right;">[下一篇：包的安装](./2%20Installation.md)</u>
